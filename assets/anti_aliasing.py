@@ -1,6 +1,6 @@
 import numpy as np
-from convolution import convolution
-from kernels import gaussian
+from assets.convolution import convolution
+from assets.kernels import gaussian
 
 class anti_aliasing:
     def __init__(self, image, iters=3):
