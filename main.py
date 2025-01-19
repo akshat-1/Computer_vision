@@ -3,7 +3,7 @@ import numpy as np
 from convolution import convolution 
 from kernels import gaussian, bilateral, v_edges, h_edges
 
-img = cv2.imread(r"D:\github\Computer_vision\1.jpg")
+img = cv2.imread(r"D:\github\Computer_vision\2.png")
 
 width = 626  # Desired width
 height = int(img.shape[0] * (width / img.shape[1]))  # Maintain aspect ratio
